@@ -1,7 +1,8 @@
 # otx-java-proj
 this project build for course learning material and exercise.
 
-this roject implement.
+this project implement.
 
+* CRUD operation
 * REST API
 * Database Connectivity
