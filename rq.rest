@@ -1,0 +1,44 @@
+POST http://localhost:8080/student
+content-type: application/json
+
+{
+    "firstName": "Nigl",
+    "lastName": "Eng"
+}
+
+###
+
+PUT http://localhost:8080/student/Kim
+Content-Type: application/json
+
+{
+    "firstName": "Kim",
+    "lastName": "Ford"
+}
+
+###
+
+DELETE http://localhost:8080/student/Kim
+
+###
+
+GET http://localhost:8080/students
+
+###
+
+GET http://localhost:8080/api/employees
+###
+
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+    "firstName": "Erina",
+    "lastName": "Smith",
+    "email": "david@email.com"
+}
+
+###
+
+DELETE http://localhost:8080/api/employees/4
+###
